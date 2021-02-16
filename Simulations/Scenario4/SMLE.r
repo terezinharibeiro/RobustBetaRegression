@@ -147,8 +147,8 @@ V_matrix <- function(theta) {
   muhat_2_q <- ((2.0 - q_const)*(ahat_n - 1.0) + 1.0)/phihat_2_q; #expression of mu_(2-q)
   a2_qhat <- muhat_2_q*phihat_2_q
   b2_qhat <- (1.0 - muhat_2_q)*phihat_2_q
-  mustarhat_n <- psigamma(a2_qhat, 0) - psigamma(b2_qhat, 0)	  
-  mudaggerhat_n <-  psigamma(b2_qhat, 0) - psigamma(phihat_2_q, 0)	
+  mustarhat_n <- psigamma(ahat_n, 0) - psigamma(bhat_n, 0)
+  mudaggerhat_n <-  psigamma(bhat_n, 0) - psigamma(phihat_n, 0)		
   mustarhat_2_q <- psigamma(a2_qhat, 0) - psigamma(b2_qhat, 0)
   mudaggerhat_2_q <-  psigamma(b2_qhat, 0) - psigamma(phihat_2_q, 0)	
   muhat_d_2_q <- muhat_q*(mustarhat_2_q - mustarhat_n) + mudaggerhat_2_q - mudaggerhat_n
