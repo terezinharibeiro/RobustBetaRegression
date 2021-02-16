@@ -18,7 +18,7 @@ NREP <- 1000 #number of Monte Carlo replicates
 kk1 <- length(VBETA); kk2 <- length(VGAMA)
 
 #*************generated covariates******************#
-se1 = 1994 ; se2 = 1991 #random seed
+se1 = 2 ; se2 = 3 #random seed
 set.seed(c(se1,se2), kind="Marsaglia-Multicarry") #To ensure repeatability of the experiment
 x1 <- runif(VN[1])
 X <- matrix(c(rep(1,VN[1]), x1), ncol=2, byrow=F); #regressor matrix for the mean submodel
