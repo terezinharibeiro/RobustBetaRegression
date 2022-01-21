@@ -1,0 +1,236 @@
+ ========================================================================================== 
+ TRUE VALUES  
+ Sample size  40 
+ beta1 beta2 gama1
+  -1.8    -2   4.5
+ Mu_min Mu_max Mu_median Phi_min Phi_max Phi_median Het_Intensity
+  0.022   0.14     0.063  90.017  90.017     90.017             1
+ ========================================================================================== 
+ ================================ MLE estimates without contamination ================================ 
+      Mean estimates          Bias   Mean SE Null level Median estimates  Median Bias Median SE
+beta1      -1.798692 -0.0007266188 0.1009523      0.073        -1.798118 -0.001045677 0.1009369
+beta2      -2.013446  0.0067228494 0.2311570      0.076        -2.009040  0.004519950 0.2311004
+gama1       4.566744  0.0148320909 0.2263087      0.072         4.550001  0.011111288 0.2262194
+ ================================ MLE estimates with contamination ================================ 
+      Estimates         Bias        SE Null level Median estimates  Median Bias Median SE
+beta1 -1.810235  0.005685877 0.1813562       0.00        -1.811858  0.006587745 0.1815458
+beta2 -1.380902 -0.309549058 0.3633353       0.35        -1.387234 -0.306382863 0.3634919
+gama1  3.165394 -0.296579218 0.2315181       1.00         3.160933 -0.297570412 0.2314272
+ ================================ SMLE estimates without contamination ================================
+ Mean of q-optimal is  0.99822 
+      Estimates          Bias        SE Null level Median estimates  Median Bias Median SE
+beta1 -1.798339 -0.0009225074 0.1008030      0.073        -1.797268 -0.001517533 0.1008033
+beta2 -2.014613  0.0073065860 0.2308666      0.076        -2.009330  0.004664796 0.2309965
+gama1  4.570658  0.0157018245 0.2264440      0.077         4.556605  0.012578924 0.2262265
+ ================================ SMLE estimates with contamination ================================ 
+ Mean of q-optimal is  0.921 
+      Estimates          Bias        SE Null level Median estimates  Median Bias Median SE
+beta1 -1.798975 -0.0005694620 0.1029708      0.075        -1.801630 0.0009056507 0.1027061
+beta2 -2.001567  0.0007835683 0.2350906      0.071        -2.006048 0.0030241343 0.2356022
+gama1  4.536410  0.0080910173 0.2287751      0.091         4.532007 0.0071125838 0.2285362
+ ================================ MDPDE estimates without contamination ================================ 
+ Mean of q-optimal is  0.99946 
+      Estimates          Bias        SE Null level Median estimates  Median Bias Median SE
+beta1 -1.798544 -0.0008090306 0.1009065      0.073        -1.798118 -0.001045677 0.1008244
+beta2 -2.013705  0.0068525934 0.2310642      0.076        -2.009330  0.004664796 0.2310155
+gama1  4.567803  0.0150674006 0.2263308      0.073         4.553937  0.011986055 0.2262213
+ ================================ MDPDE estimates with contamination ================================ 
+ Mean of q-optimal is  0.91746 
+      Estimates          Bias        SE Null level Median estimates  Median Bias Median SE
+beta1 -1.799696 -0.0001690825 0.1031957      0.073        -1.801763 0.0009792074 0.1031619
+beta2 -1.997836 -0.0010819001 0.2354825      0.069        -2.004231 0.0021154091 0.2358927
+gama1  4.530088  0.0066862316 0.2285548      0.088         4.519489 0.0043307864 0.2283815
+ ================================ Ratio of MSE ================================ 
+                        MLE/SMLE  MLE/MDPDE SMLE/MDPDE
+Without contamination  0.9795965  0.9972533   1.018025
+With contamination    14.9167484 15.5031983   1.039315
+ ================================ Ratio of sum of variances ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination 1.000847  1.000377  0.9995760
+With contamination    1.861120  1.858796  0.9996796
+ ========================================================================================== 
+ ================================ Percentage of times that MLE is choosen ================================ 
+                       SMLE MDPDE
+Without contamination 0.991 0.997
+With contamination    0.002 0.000
+ ========================================================================================== 
+Perc. Replic. MC = 25 % 
+Perc. Replic. MC = 50 % 
+Perc. Replic. MC = 75 % 
+Perc. Replic. MC = 100 % 
+ ========================================================================================== 
+ TRUE VALUES  
+ Sample size  80 
+ beta1 beta2 gama1
+  -1.8    -2   4.5
+ Mu_min Mu_max Mu_median Phi_min Phi_max Phi_median Het_Intensity
+  0.022   0.14     0.063  90.017  90.017     90.017             1
+ ========================================================================================== 
+ ================================ MLE estimates without contamination ================================ 
+      Mean estimates         Bias    Mean SE Null level Median estimates   Median Bias  Median SE
+beta1      -1.800335 0.0001863604 0.07194538      0.065        -1.798954 -0.0005810256 0.07182599
+beta2      -2.009363 0.0046813593 0.16467917      0.054        -2.002618  0.0013088450 0.16465704
+gama1       4.544786 0.0099524096 0.16003271      0.073         4.537861  0.0084136631 0.16000669
+ ================================ MLE estimates with contamination ================================ 
+      Estimates         Bias        SE Null level Median estimates Median Bias Median SE
+beta1 -1.810238  0.005687915 0.1291978       0.00        -1.807627  0.00423696 0.1293258
+beta2 -1.374903 -0.312548637 0.2584991       0.78        -1.374634 -0.31268294 0.2589425
+gama1  3.145090 -0.301091159 0.1637658       1.00         3.142460 -0.30167563 0.1637515
+ ================================ SMLE estimates without contamination ================================
+ Mean of q-optimal is  1 
+      Estimates         Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.800335 0.0001863604 0.07194538      0.065        -1.798954 -0.0005810256 0.07182599
+beta2 -2.009363 0.0046813593 0.16467917      0.054        -2.002618  0.0013088450 0.16465704
+gama1  4.544786 0.0099524096 0.16003271      0.073         4.537861  0.0084136631 0.16000669
+ ================================ SMLE estimates with contamination ================================ 
+ Mean of q-optimal is  0.92146 
+      Estimates         Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.800237 0.0001314327 0.07339112      0.067        -1.797412 -0.0014376718 0.07311052
+beta2 -2.001293 0.0006463311 0.16764081      0.058        -2.000796  0.0003980106 0.16753543
+gama1  4.511906 0.0026457800 0.16168749      0.090         4.511519  0.0025596999 0.16166617
+ ================================ MDPDE estimates without contamination ================================ 
+ Mean of q-optimal is  1 
+      Estimates         Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.800335 0.0001863604 0.07194538      0.065        -1.798954 -0.0005810256 0.07182599
+beta2 -2.009363 0.0046813593 0.16467917      0.054        -2.002618  0.0013088450 0.16465704
+gama1  4.544786 0.0099524096 0.16003271      0.073         4.537861  0.0084136631 0.16000669
+ ================================ MDPDE estimates with contamination ================================ 
+ Mean of q-optimal is  0.91736 
+      Estimates          Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.800716  0.0003979993 0.07361725      0.065        -1.797804 -1.219827e-03 0.07354422
+beta2 -1.997258 -0.0013707905 0.16802856      0.058        -1.996908 -1.546120e-03 0.16805974
+gama1  4.504556  0.0010125463 0.16160910      0.078         4.500445  9.882387e-05 0.16150685
+ ================================ Ratio of MSE ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination    1.000   1.00000   1.000000
+With contamination      32.745  32.78415   1.001196
+ ================================ Ratio of sum of variances ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination  1.00000  1.000000  1.0000000
+With contamination     1.85661  1.852393  0.9977191
+ ========================================================================================== 
+ ================================ Percentage of times that MLE is choosen ================================ 
+                      SMLE MDPDE
+Without contamination    1     1
+With contamination       0     0
+ ========================================================================================== 
+Perc. Replic. MC = 25 % 
+Perc. Replic. MC = 50 % 
+Perc. Replic. MC = 75 % 
+Perc. Replic. MC = 100 % 
+ ========================================================================================== 
+ TRUE VALUES  
+ Sample size  160 
+ beta1 beta2 gama1
+  -1.8    -2   4.5
+ Mu_min Mu_max Mu_median Phi_min Phi_max Phi_median Het_Intensity
+  0.022   0.14     0.063  90.017  90.017     90.017             1
+ ========================================================================================== 
+ ================================ MLE estimates without contamination ================================ 
+      Mean estimates          Bias    Mean SE Null level Median estimates  Median Bias  Median SE
+beta1      -1.801508  0.0008377256 0.05143423       0.06        -1.800819 0.0004552262 0.05129633
+beta2      -1.997692 -0.0011539480 0.11749379       0.06        -2.002025 0.0010123324 0.11749159
+gama1       4.517657  0.0039237748 0.11317711       0.07         4.517538 0.0038974115 0.11316692
+ ================================ MLE estimates with contamination ================================ 
+      Estimates         Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.810997  0.006109428 0.09128911      0.000        -1.809258  0.005143152 0.09136113
+beta2 -1.371972 -0.314013779 0.18264395      0.993        -1.376979 -0.311510622 0.18263898
+gama1  3.146348 -0.300811490 0.11576902      1.000         3.143052 -0.301544009 0.11575502
+ ================================ SMLE estimates without contamination ================================
+ Mean of q-optimal is  1 
+      Estimates          Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.801508  0.0008377256 0.05143423       0.06        -1.800819 0.0004552262 0.05129633
+beta2 -1.997692 -0.0011539480 0.11749379       0.06        -2.002025 0.0010123324 0.11749159
+gama1  4.517657  0.0039237748 0.11317711       0.07         4.517538 0.0038974115 0.11316692
+ ================================ SMLE estimates with contamination ================================ 
+ Mean of q-optimal is  0.9197 
+      Estimates          Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.801554  0.0008634669 0.05247672      0.058        -1.800340  0.0001890596 0.05226848
+beta2 -1.988904 -0.0055478819 0.11961614      0.074        -1.994703 -0.0026487438 0.11948964
+gama1  4.484524 -0.0034391417 0.11438523      0.095         4.485416 -0.0032408433 0.11435180
+ ================================ MDPDE estimates without contamination ================================ 
+ Mean of q-optimal is  1 
+      Estimates          Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.801508  0.0008377256 0.05143423       0.06        -1.800819 0.0004552262 0.05129633
+beta2 -1.997692 -0.0011539480 0.11749379       0.06        -2.002025 0.0010123324 0.11749159
+gama1  4.517657  0.0039237748 0.11317711       0.07         4.517538 0.0038974115 0.11316692
+ ================================ MDPDE estimates with contamination ================================ 
+ Mean of q-optimal is  0.91644 
+      Estimates         Bias         SE Null level Median estimates   Median Bias  Median SE
+beta1 -1.802077  0.001154163 0.05269274      0.058        -1.800825  0.0004581952 0.05256355
+beta2 -1.984042 -0.007978819 0.11999549      0.071        -1.990097 -0.0049517120 0.12003220
+gama1  4.474636 -0.005636418 0.11430953      0.098         4.470430 -0.0065711766 0.11423352
+ ================================ Ratio of MSE ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination  1.00000   1.00000  1.0000000
+With contamination    59.14831  58.53618  0.9896509
+ ================================ Ratio of sum of variances ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination 1.000000   1.00000   1.000000
+With contamination    1.831042   1.82523   0.996844
+ ========================================================================================== 
+ ================================ Percentage of times that MLE is choosen ================================ 
+                      SMLE MDPDE
+Without contamination    1     1
+With contamination       0     0
+ ========================================================================================== 
+Perc. Replic. MC = 25 % 
+Perc. Replic. MC = 50 % 
+Perc. Replic. MC = 75 % 
+Perc. Replic. MC = 100 % 
+ ========================================================================================== 
+ TRUE VALUES  
+ Sample size  320 
+ beta1 beta2 gama1
+  -1.8    -2   4.5
+ Mu_min Mu_max Mu_median Phi_min Phi_max Phi_median Het_Intensity
+  0.022   0.14     0.063  90.017  90.017     90.017             1
+ ========================================================================================== 
+ ================================ MLE estimates without contamination ================================ 
+      Mean estimates         Bias    Mean SE Null level Median estimates  Median Bias  Median SE
+beta1      -1.800448 2.490552e-04 0.03647601      0.069        -1.801516 0.0008423303 0.03647792
+beta2      -2.000102 5.107373e-05 0.08335811      0.050        -2.000645 0.0003223660 0.08337145
+gama1       4.509042 2.009421e-03 0.08003273      0.045         4.509154 0.0020341810 0.08002801
+ ================================ MLE estimates with contamination ================================ 
+      Estimates         Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.810245  0.005691889 0.06463757      0.001        -1.811491  0.006384091 0.06463099
+beta2 -1.372373 -0.313813452 0.12931559      1.000        -1.372366 -0.313816832 0.12934767
+gama1  3.142208 -0.301731525 0.08186710      1.000         3.141021 -0.301995437 0.08186840
+ ================================ SMLE estimates without contamination ================================
+ Mean of q-optimal is  1 
+      Estimates         Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.800448 2.490552e-04 0.03647601      0.069        -1.801516 0.0008423303 0.03647792
+beta2 -2.000102 5.107373e-05 0.08335811      0.050        -2.000645 0.0003223660 0.08337145
+gama1  4.509042 2.009421e-03 0.08003273      0.045         4.509154 0.0020341810 0.08002801
+ ================================ SMLE estimates with contamination ================================ 
+ Mean of q-optimal is  0.91998 
+      Estimates          Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.800628  0.0003486724 0.03722495      0.065        -1.802098  0.001165804 0.03715748
+beta2 -1.990120 -0.0049400278 0.08487268      0.053        -1.989231 -0.005384723 0.08473272
+gama1  4.474823 -0.0055948775 0.08087596      0.078         4.475117 -0.005529496 0.08086710
+ ================================ MDPDE estimates without contamination ================================ 
+ Mean of q-optimal is  1 
+      Estimates         Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.800448 2.490552e-04 0.03647601      0.069        -1.801516 0.0008423303 0.03647792
+beta2 -2.000102 5.107373e-05 0.08335811      0.050        -2.000645 0.0003223660 0.08337145
+gama1  4.509042 2.009421e-03 0.08003273      0.045         4.509154 0.0020341810 0.08002801
+ ================================ MDPDE estimates with contamination ================================ 
+ Mean of q-optimal is  0.91792 
+      Estimates          Bias         SE Null level Median estimates  Median Bias  Median SE
+beta1 -1.801157  0.0006426481 0.03743091      0.061        -1.802715  0.001508255 0.03742376
+beta2 -1.984397 -0.0078013964 0.08524540      0.059        -1.983187 -0.008406393 0.08513137
+gama1  4.461526 -0.0085496869 0.08080904      0.083         4.457414 -0.009463600 0.08077320
+ ================================ Ratio of MSE ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination   1.0000    1.0000  1.0000000
+With contamination    129.7569  125.6409  0.9682793
+ ================================ Ratio of sum of variances ================================ 
+                      MLE/SMLE MLE/MDPDE SMLE/MDPDE
+Without contamination 1.000000  1.000000  1.0000000
+With contamination    1.825846  1.817661  0.9955485
+ ========================================================================================== 
+ ================================ Percentage of times that MLE is choosen ================================ 
+                      SMLE MDPDE
+Without contamination    1     1
+With contamination       0     0
+ ========================================================================================== 
