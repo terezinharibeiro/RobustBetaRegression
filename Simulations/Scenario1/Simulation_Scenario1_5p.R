@@ -2,6 +2,8 @@ source("SMLE.r")
 source("MDPDE.r")
 source("SAMPLE.r")
 
+sink("Results_Scenario1_5p.txt")
+
 names_results1 <- c("Estimates_Scenario1_n40", "Estimates_Scenario1_n80", "Estimates_Scenario1_n160", "Estimates_Scenario1_n320")
 names_results2 <- c("SE_Estimates_Scenario1_n40", "SE_Estimates_Scenario1_n80", "SE_Estimates_Scenario1_n160", "SE_Estimates_Scenario1_n320")
 names_results3 <- c("Qoptimal_Scenario1_n40", "Qoptimal_Scenario1_n80", "Qoptimal_Scenario1_n160", "Qoptimal_Scenario1_n320")
@@ -271,3 +273,4 @@ col.names = c("qoptimal_SMLE", "qoptimal_SMLE_C", "qoptimal_MDPDE", "qoptimal_MD
 
 }#closes samples loop
 
+sink()
