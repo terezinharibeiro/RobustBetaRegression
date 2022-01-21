@@ -37,6 +37,13 @@ legend(0.0,0.54,"Absence of contamination",bty="n",cex=1.3)
 legend(4.2,0.54,"Presence of contamination",bty="n",cex=1.3)
 
 
+#Median optimal tuning constants
+
+#SMLE
+apply(cbind(SMLE_n40,SMLE_n80,SMLE_n160,SMLE_n320,SMLEC_n40,SMLEC_n80,SMLEC_n160,SMLEC_n320),2,median)
+
+#MDPDE
+apply(cbind(MDPDE_n40,MDPDE_n80,MDPDE_n160,MDPDE_n320,MDPDEC_n40,MDPDEC_n80,MDPDEC_n160,MDPDEC_n320),2,median)
 
 
 
