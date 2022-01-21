@@ -3,8 +3,8 @@ rm(list=ls())
 
 data40 <- read.table("Qoptimal_Scenario2_n40.txt", h=T)
 data80 <- read.table("Qoptimal_Scenario2_n80.txt", h=T)
-data160 <- read.table("Qoptimal_Scenario2_n40.txt", h=T)
-data320 <- read.table("Qoptimal_Scenario2_n40.txt", h=T)
+data160 <- read.table("Qoptimal_Scenario2_n160.txt", h=T)
+data320 <- read.table("Qoptimal_Scenario2_n320.txt", h=T)
 
 SMLE_n40 <-  data40$qoptimal_SMLE;     SMLEC_n40 <-   data40$qoptimal_SMLE_C
 MDPDE_n40 <- data40$qoptimal_MDPDE;    MDPDEC_n40 <-  data40$qoptimal_MDPDE_C
