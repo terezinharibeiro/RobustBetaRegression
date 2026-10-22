@@ -1,6 +1,6 @@
 # R codes and datasets for the paper "Robust estimation in beta regression via maximum Lq-likelihood"
 
-This repository contains R codes and datasets used in the applications and simulations of the paper "Robust estimation in beta regression via maximum Lq-likelihood" by Ribeiro and Ferrari (2022).
+This repository contains R codes and datasets used in the applications and simulations of the paper "Robust estimation in beta regression via maximum Lq-likelihood" by Ribeiro and Ferrari (2023). https://doi.org/10.1007/s00362-022-01320-0
 
 ### Applications
 
